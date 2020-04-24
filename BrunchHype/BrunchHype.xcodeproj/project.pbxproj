@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		785C36DB2452694B0052B98E /* BrunchSpot+convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C36DA2452694B0052B98E /* BrunchSpot+convenience.swift */; };
+		785C36DD24526C150052B98E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785C36DC24526C140052B98E /* CoreDataStack.swift */; };
 		FB346EF62451FF7600B56A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB346EF52451FF7600B56A62 /* AppDelegate.swift */; };
 		FB346EF82451FF7600B56A62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB346EF72451FF7600B56A62 /* SceneDelegate.swift */; };
 		FB346EFD2451FF7600B56A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB346EFB2451FF7600B56A62 /* Main.storyboard */; };
 		FB346F002451FF7600B56A62 /* BrunchHype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB346EFE2451FF7600B56A62 /* BrunchHype.xcdatamodeld */; };
 		FB346F022451FF7800B56A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB346F012451FF7800B56A62 /* Assets.xcassets */; };
 		FB346F052451FF7800B56A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB346F032451FF7800B56A62 /* LaunchScreen.storyboard */; };
-		FB346F132452022600B56A62 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB346F122452022600B56A62 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		785C36DA2452694B0052B98E /* BrunchSpot+convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrunchSpot+convenience.swift"; sourceTree = "<group>"; };
+		785C36DC24526C140052B98E /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FB346EF22451FF7600B56A62 /* BrunchHype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrunchHype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB346EF52451FF7600B56A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB346EF72451FF7600B56A62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		FB346F012451FF7800B56A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB346F042451FF7800B56A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB346F062451FF7800B56A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB346F122452022600B56A62 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 		FB346F112452020F00B56A62 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB346F122452022600B56A62 /* CoreDataStack.swift */,
+				785C36DC24526C140052B98E /* CoreDataStack.swift */,
 			);
 			path = "Helper Files";
 			sourceTree = "<group>";
@@ -107,6 +109,7 @@
 		FB346F18245208D600B56A62 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				785C36DA2452694B0052B98E /* BrunchSpot+convenience.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -197,9 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB346F132452022600B56A62 /* CoreDataStack.swift in Sources */,
+				785C36DD24526C150052B98E /* CoreDataStack.swift in Sources */,
 				FB346EF62451FF7600B56A62 /* AppDelegate.swift in Sources */,
 				FB346EF82451FF7600B56A62 /* SceneDelegate.swift in Sources */,
+				785C36DB2452694B0052B98E /* BrunchSpot+convenience.swift in Sources */,
 				FB346F002451FF7600B56A62 /* BrunchHype.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
