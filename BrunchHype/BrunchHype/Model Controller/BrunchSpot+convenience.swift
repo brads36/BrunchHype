@@ -1,5 +1,5 @@
 //
-//  CoreDataStack.swift
+//  BrunchSpot+convenience.swift
 //  BrunchHype
 //
 //  Created by Bryce Bradshaw on 4/23/20.
